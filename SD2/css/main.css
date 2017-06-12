@@ -1,0 +1,26 @@
+#container {
+	display: flex;
+	/*Make the div responsive*/
+	flex-wrap: wrap;
+	align-content: center;
+}
+.containerItem {
+	display: flex;
+    align-items: center;
+	margin: 8px;
+	height: 190px;
+	width: 150px;
+	border: 1px solid #cccccc;
+	line-height: 25px;
+}
+.content{
+	padding: 5px;
+}
+
+.nameItem {
+	font-weight: bold;
+}
+
+.display-none {
+	display: none;
+}
